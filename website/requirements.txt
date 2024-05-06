@@ -121,9 +121,6 @@ nbconvert==7.13.1
 nbformat==5.9.2
 nest-asyncio==1.5.8
 networkx==3.2.1
-nltk==3.8.1
-notebook==7.0.6
-notebook_shim==0.2.3
 numpy==1.26.0
 oauthlib==3.2.2
 openpyxl==3.1.2
@@ -161,7 +158,6 @@ Pygments==2.16.1
 PyJWT==2.8.0
 pyOpenSSL==23.2.0
 pyparsing==3.1.1
-PyPDF2==3.0.1
 PySocks==1.7.1
 pytesseract==0.3.10
 python-dateutil==2.8.2
@@ -176,7 +172,6 @@ resampy==0.4.2
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rich==13.6.0
-roboflow==1.1.19
 rpds-py==0.10.6
 rsa==4.9
 safetensors==0.4.3
