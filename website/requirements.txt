@@ -97,7 +97,6 @@ langcodes==3.3.0
 lazy_loader==0.3
 lazypredict==0.2.12
 libclang==16.0.6
-librosa==0.10.1
 lightgbm==4.1.0
 llvmlite==0.41.1
 Markdown==3.5.1
@@ -195,10 +194,6 @@ SQLAlchemy==2.0.29
 srsly==2.4.8
 stack-data==0.6.3
 statsmodels==0.14.1
-supervision==0.18.0
-svgling==0.4.0
-svgwrite==1.4.3
-sympy==1.12
 tenacity==8.2.3
 termcolor==2.4.0
 terminado==0.18.0
