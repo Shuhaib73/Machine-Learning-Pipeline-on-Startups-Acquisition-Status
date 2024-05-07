@@ -7,6 +7,7 @@ from flask import make_response
 
 import pandas as pd
 from model import *
+from model import SMOTETransformer
 from model import PipelineTester
 
 
