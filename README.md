@@ -1,5 +1,5 @@
 # Building-Machine-Learning-Pipeline-on-Startups-Acquisition-Status
-Our aim to understand the financial conditions of company fundraising goals.
+This Project Focuses on understand the financial conditions of company fundraising goals.
 
 # Objective:
 The objective of the project is to predict whether a startup which is currently Operating, IPO, Acquired, or closed.This problem will be solved through a Supervised Machine Learning approach by training a model based on the history of startups which were either acquired or closed.
@@ -35,26 +35,29 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 
 ## Machine Learning Pipeline:
 
-           * The data preprocessing steps include:
+-- The data preprocessing steps include:
            * Feature Selection: Identifying the relevant features from the raw data that will be used for model training.
            * Handling Missing Data: Imputing or removing missing values to ensure clean training data.
            * Normalization/Standardization: Scaling features to bring them to a similar range and avoid model bias.
            * Categorical Encoding: Encoding categorical variables (e.g., company industry, status) into numerical formats using techniques like one-hot encoding or label encoding.
 
 ## Building and Training Model:
-           * The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
+-- The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
            * Model Selection: Using suitable classifiers (e.g.Random Forest, XGBoost, etc.).
            * Model Training: Splitting the dataset into training and testing sets and training models on the training data.
            * Model Evaluation: Evaluating models using metrics like accuracy, precision, recall, and F1-score, among others.
 
-## Dockerization::
-           * The entire machine learning pipeline is dockerized, making it portable and easier to deploy in various environments. This involves:
+## Dockerization:
+-- The entire machine learning pipeline is dockerized, making it portable and easier to deploy in various environments. This involves:
            * Containerizing the model and pipeline using Docker to ensure consistency across different stages of development, testing, and production.
 
 ## CI/CD Automation:
            * Continuous Integration and Continuous Deployment (CI/CD) pipelines are implemented to automate the testing, building, and deployment of the model. This ensures that updates to the model or pipeline are smoothly integrated and deployed without manual intervention.
 
-## Model Deployment and Database Integration:
-           * Once the models are trained and evaluated, they will be deployed using Amazon ECS (Elastic Container Service), ensuring scalability and easy access for real-time predictions. This setup allows the model to be accessed via APIs for making predictions in real-time, such as determining the status of new startups.
+## Website Development with Flask:
+-- In addition to model deployment, a Flask-based web application has been developed to interact with the trained model. This web application provides a user-friendly interface to input data, make predictions, and display the results. It communicates with the deployed model through RESTful APIs, ensuring that users can interact with the model in real-time.
 
-           * To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) will be used. RDS will allow for scalable, managed storage of user data and startup-related information. This ensures that sensitive information is stored securely and can be easily accessed by the deployed application.
+## Database Integration and Model Deployment:
+           * Once the models is trained and evaluated, I deployed the model using Amazon ECS (Elastic Container Service), ensuring scalability and easy access for real-time predictions. This setup allows the model to be accessed via APIs for making predictions in real-time, such as determining the status of new startups.
+
+           * To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) has been used. RDS provides scalable, managed storage for user data and startup-related information. It ensures that sensitive information is stored securely and can be easily accessed by the deployed application for real-time predictions.
