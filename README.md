@@ -35,11 +35,11 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 
 ## Machine Learning Pipeline:
 
--- The data preprocessing steps include:
--- Feature Selection: Identifying the relevant features from the raw data that will be used for model training.
--- Handling Missing Data: Imputing or removing missing values to ensure clean training data.
--- Normalization/Standardization: Scaling features to bring them to a similar range and avoid model bias.
--- Categorical Encoding: Encoding categorical variables (e.g., company industry, status) into numerical formats using techniques like one-hot encoding or label encoding.
+           * The data preprocessing steps include:
+           * Feature Selection: Identifying the relevant features from the raw data that will be used for model training.
+           * Handling Missing Data: Imputing or removing missing values to ensure clean training data.
+           * Normalization/Standardization: Scaling features to bring them to a similar range and avoid model bias.
+           * Categorical Encoding: Encoding categorical variables (e.g., company industry, status) into numerical formats using techniques like one-hot encoding or label encoding.
 
 ## Building and Training Model:
            * The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
