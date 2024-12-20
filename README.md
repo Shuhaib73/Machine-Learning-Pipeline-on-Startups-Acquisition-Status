@@ -1,10 +1,10 @@
 # Building-Machine-Learning-Pipeline-on-Startups-Acquisition-Status
 This Project Focuses on understand the financial conditions of company fundraising goals.
 
-# Objective:
+## <br>**➲ The Objective** :
 The objective of the project is to predict whether a startup which is currently Operating, IPO, Acquired, or closed.This problem will be solved through a Supervised Machine Learning approach by training a model based on the history of startups which were either acquired or closed.
 
-## Data:
+# <br>**➲ The Data**:
 
 ### Link to raw data(Huge JSON and Excel fiel):
            https://drive.google.com/file/d/1tWYkHYHm2HoiCajZ49Cs1K7sklWTdAbV/view?usp=sharing
@@ -12,6 +12,7 @@ The objective of the project is to predict whether a startup which is currently 
 ### Summary:
 
 The data contains industry trends, investment insights and individual company information. Since the data was acquired on a trial basis, it only contains information about companies. After training the model, we predict whether startups still operating, IPO, acquired, or closed.
+
 
 ### Data types:
 
