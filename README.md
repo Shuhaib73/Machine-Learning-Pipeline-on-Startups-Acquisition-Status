@@ -16,11 +16,11 @@ The data contains industry trends, investment insights and individual company in
 ### Data types:
 
 The dataset includes the following key columns for model training:
--- Entity Information: name, entity_type, category_code, etc.
--- Status Information: status, founded_at, closed_at
--- Company Financial Information: funding_total_usd, funding_rounds, first_investment_at, etc.
--- Geographical Information: country_code, state_code, city, region
--- Milestones and Relationships: milestones, relationships
+* Entity Information: name, entity_type, category_code, etc.
+* Status Information: status, founded_at, closed_at
+* Company Financial Information: funding_total_usd, funding_rounds, first_investment_at, etc.
+* Geographical Information: country_code, state_code, city, region
+* Milestones and Relationships: milestones, relationships
 
 -- The dataset also contains columns that provide additional context but are not directly useful for model training (such as created_at, updated_at, logo_url, etc).
 
@@ -42,19 +42,19 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 -- Categorical Encoding: Encoding categorical variables (e.g., company industry, status) into numerical formats using techniques like one-hot encoding or label encoding.
 
 ## Building and Training Model:
--- The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
--- Model Selection: Using suitable classifiers (e.g.Random Forest, XGBoost, etc.).
--- Model Training: Splitting the dataset into training and testing sets and training models on the training data.
--- Model Evaluation: Evaluating models using metrics like accuracy, precision, recall, and F1-score, among others.
+           * The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
+           * Model Selection: Using suitable classifiers (e.g.Random Forest, XGBoost, etc.).
+           * Model Training: Splitting the dataset into training and testing sets and training models on the training data.
+           * Model Evaluation: Evaluating models using metrics like accuracy, precision, recall, and F1-score, among others.
 
 ## Dockerization::
--- The entire machine learning pipeline is dockerized, making it portable and easier to deploy in various environments. This involves:
--- Containerizing the model and pipeline using Docker to ensure consistency across different stages of development, testing, and production.
+           * The entire machine learning pipeline is dockerized, making it portable and easier to deploy in various environments. This involves:
+           * Containerizing the model and pipeline using Docker to ensure consistency across different stages of development, testing, and production.
 
 ## CI/CD Automation:
--- Continuous Integration and Continuous Deployment (CI/CD) pipelines are implemented to automate the testing, building, and deployment of the model. This ensures that updates to the model or pipeline are smoothly integrated and deployed without manual intervention.
+           * Continuous Integration and Continuous Deployment (CI/CD) pipelines are implemented to automate the testing, building, and deployment of the model. This ensures that updates to the model or pipeline are smoothly integrated and deployed without manual intervention.
 
 ## Model Deployment and Database Integration:
--- Once the models are trained and evaluated, they will be deployed using Amazon ECS (Elastic Container Service), ensuring scalability and easy access for real-time predictions. This setup allows the model to be accessed via APIs for making predictions in real-time, such as determining the status of new startups.
+           * Once the models are trained and evaluated, they will be deployed using Amazon ECS (Elastic Container Service), ensuring scalability and easy access for real-time predictions. This setup allows the model to be accessed via APIs for making predictions in real-time, such as determining the status of new startups.
 
--- To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) will be used. RDS will allow for scalable, managed storage of user data and startup-related information. This ensures that sensitive information is stored securely and can be easily accessed by the deployed application.
+           * To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) will be used. RDS will allow for scalable, managed storage of user data and startup-related information. This ensures that sensitive information is stored securely and can be easily accessed by the deployed application.
