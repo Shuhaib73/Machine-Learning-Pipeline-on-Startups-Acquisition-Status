@@ -76,7 +76,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
               <strong>​✒️<Click here to see :</strong> Number of Startups founded in different year
        </summary>
                      <p align='center'>
-                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis6.png' style='width: 50%; height:300px' />
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis6.png' style='width: 80%; height:300px' />
                      </p>
 </details>
 
