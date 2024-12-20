@@ -4,12 +4,12 @@
 ## <br>**➲ The Objective** :
 The objective of the project is to predict whether a startup which is currently Operating, IPO, Acquired, or closed.This problem will be solved through a Supervised Machine Learning approach by training a model based on the history of startups which were either acquired or closed.
 
-## <br>**➲ Dataset**:
+## <br>**➲ 📂 Dataset**:
 
 ### Link to raw data(Huge JSON and Excel fiel):
            https://drive.google.com/file/d/1tWYkHYHm2HoiCajZ49Cs1K7sklWTdAbV/view?usp=sharing
 
-## <br>**➲ Summary**:
+## <br>**➲ 📑 Summary**:
 
 The data contains industry trends, investment insights and individual company information. Since the data was acquired on a trial basis, it only contains information about companies. After training the model, we predict whether startups still operating, IPO, acquired, or closed.
 
@@ -32,6 +32,28 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 * Dropping columns which have NaN values.
 * Remove unnecessary and corrupted data.
 * Data Labelling.
+
+
+## 🛠️ **Technologies Used**
+
+- **Python** 🐍: The core programming language that powers the app.  
+- **Flask**: A Backend web framework for building web applications.  
+- **HTML/CSS**: Used for structuring and styling the frontend of the app, ensuring an intuitive user interface for interacting with the sentiment analysis model.
+- **Scikit-learn**: Applied for machine learning tasks, such as preprocessing, feature engineering, and model evaluation, in the startup status classification pipeline.
+- **XGBoost**: Utilized as an ensemble method for classification, offering high performance and accuracy in predicting startup acquisition status.
+- **Stacking Ensemble**: Implemented to combine multiple models in a layered fashion, enhancing the predictive performance by leveraging the strengths of individual models.
+- **Random Forest**: Used as a robust classifier for the startup acquisition status, providing high accuracy and generalization by aggregating predictions from multiple decision trees.
+- **SMOTE**: (Synthetic Minority Over-sampling Technique): Applied to address class imbalance, generating synthetic data points for the underrepresented class to improve model performance.
+- **MySQL**: Used as the relational database management system (RDBMS) for storing and managing the Startups details and User Credentials, ensuring reliable data retrieval and storage for the project.
+- **AWS RDS**: Utilized to host and manage the MySQL database in a scalable and reliable cloud environment, providing automatic backups, scaling, and high availability.
+- **AWS ECS**: (Elastic Container Service): Deployed for running Docker containers on AWS, allowing for seamless scaling and management of the app’s containerized services in a cloud environment.
+- **Docker**: Utilized in this project to create a containerized environment for the app, ensuring consistent development and deployment across different environments.
+- **Docker Container Images**: Employed to package all necessary code, libraries, and dependencies, allowing for the easy deployment and scaling of the sentiment analysis app.
+- **CI/CD (Continuous Integration/Continuous Deployment)**: Integrated into the development workflow to automatically test and deploy new changes to the app, ensuring higher quality and faster release cycles for updates.
+- **GitHub Actions**: Implemented for automating the CI/CD pipeline, allowing for seamless building, testing, and deployment of the sentiment analysis model directly from GitHub.
+- **Pandas**: A robust library for dataset management and processing.    
+- **Matplotlib/Seaborn**: Used for creating impactful visualizations that simplify data insights.  
+
 
 
   ## <br>**➲ Exploratory Data Analysis (EDA)**
