@@ -49,7 +49,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
               <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Ham Messages
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/Ham_dirstribution.png' style='width: 70%;' />
+                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/cls_dis1.png' style='width: 70%;' />
                      </p>
 </details>
 
@@ -89,6 +89,16 @@ In data cleaning we are will remove the inappropriate & unncessary information f
                      </p>
 </details>
 
+**Classification Report for Testing**
+<p align='center'>
+      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/Report1.png' style='width: 58%;' />
+</p>
+
+
+**Confusion Matrix for Testing**
+<p align='center'>
+      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/testing_cls1.png' style='width: 58%;' />
+</p>
 
 ## <br>**➲ Machine Learning Pipeline**:
 
