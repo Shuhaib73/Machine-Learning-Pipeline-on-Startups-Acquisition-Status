@@ -36,6 +36,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 ## Machine Learning Pipeline:
 
 -- The data preprocessing steps include:
+
            * Feature Selection: Identifying the relevant features from the raw data that will be used for model training.
            * Handling Missing Data: Imputing or removing missing values to ensure clean training data.
            * Normalization/Standardization: Scaling features to bring them to a similar range and avoid model bias.
@@ -43,12 +44,14 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 
 ## Building and Training Model:
 -- The pipeline includes both binary and multiclass classification models, as the startup statuses need to be classified into one of several categories. The steps include:
+
            * Model Selection: Using suitable classifiers (e.g.Random Forest, XGBoost, etc.).
            * Model Training: Splitting the dataset into training and testing sets and training models on the training data.
            * Model Evaluation: Evaluating models using metrics like accuracy, precision, recall, and F1-score, among others.
 
 ## Dockerization:
 -- The entire machine learning pipeline is dockerized, making it portable and easier to deploy in various environments. This involves:
+
            * Containerizing the model and pipeline using Docker to ensure consistency across different stages of development, testing, and production.
 
 ## CI/CD Automation:
