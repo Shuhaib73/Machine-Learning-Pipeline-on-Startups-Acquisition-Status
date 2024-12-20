@@ -40,7 +40,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
               <strong>​✒️<Click here to see :</strong> Distribution of Target Class for Binary Classification
        </summary>
                      <p align='center'>
-                            <img src='website/__pycache__/cls_dis1.png' style='width: 70%;' />
+                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/cls_dis1.png' style='width: 50%; height:250px' />
                      </p>
 </details>
 
@@ -49,7 +49,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
               <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Ham Messages
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/cls_dis1.png' style='width: 70%;' />
+                            <img src='' style='width: 70%;' />
                      </p>
 </details>
 
