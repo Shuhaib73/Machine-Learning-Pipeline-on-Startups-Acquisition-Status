@@ -98,14 +98,6 @@ In data cleaning we are will remove the inappropriate & unncessary information f
                      </p>
 </details>
 
-<details>
-       <summary>
-              <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Stacking Classifier [Ensemble Method]
-       </summary>
-                     <p align='center'>
-                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip2.png' style='width: 50%; height:300px' />
-                     </p>
-</details>
 
 <details>
        <summary>
