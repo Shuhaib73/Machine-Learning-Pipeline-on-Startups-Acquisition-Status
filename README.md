@@ -15,7 +15,15 @@ The data contains industry trends, investment insights and individual company in
 
 ### Data types:
 
-There are many columns out of which will be used as features. The rest provide more information about the data, but will not be used for model training.
+The dataset includes the following key columns for model training:
+-- Entity Information: name, entity_type, category_code, etc.
+-- Status Information: status, founded_at, closed_at
+-- Company Financial Information: funding_total_usd, funding_rounds, first_investment_at, etc.
+-- Geographical Information: country_code, state_code, city, region
+-- Milestones and Relationships: milestones, relationships
+
+-- The dataset also contains columns that provide additional context but are not directly useful for model training (such as created_at, updated_at, logo_url, etc).
+
 
 ## Data Cleaning:
 In data cleaning we are will remove the inappropriate & unncessary information from raw data(main data).Hence, after which we’ll perform data cleaning involving following steps:
