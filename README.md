@@ -9,11 +9,7 @@ The objective of the project is to predict whether a startup which is currently 
 ### Link to raw data(Huge JSON and Excel fiel):
            https://drive.google.com/file/d/1tWYkHYHm2HoiCajZ49Cs1K7sklWTdAbV/view?usp=sharing
 
-## <br>**➲ 📑 Summary**:
-
-The data contains industry trends, investment insights and individual company information. Since the data was acquired on a trial basis, it only contains information about companies. After training the model, we predict whether startups still operating, IPO, acquired, or closed.
-
-## <br>**➲ Data types**:
+## <br>**➲ 📑 Data types**:
 
 The dataset includes the following key columns for model training:
 * Entity Information: name, entity_type, category_code, etc.
