@@ -40,65 +40,91 @@ In data cleaning we are will remove the inappropriate & unncessary information f
               <strong>​✒️<Click here to see :</strong> Distribution of Target Class for Binary Classification
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/cls_dis1.png' style='width: 50%; height:250px' />
+                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/cls_dis1.png' style='width: 50%; height:300px' />
                      </p>
 </details>
 
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Ham Messages
+              <strong>​✒️<Click here to see :</strong> Distribution of Startups by Country
        </summary>
                      <p align='center'>
-                            <img src='' style='width: 70%;' />
+                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis2.png' style='width: 50%; height:300px' />
                      </p>
 </details>
 
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Spam Messages
+              <strong>​✒️<Click here to see :</strong> Distribution of Startups by Region
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/spam_distribution.png' style='width: 70%;' />
+                            <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis3.png' style='width: 50%; height:300px' />
                      </p>
 </details>
 
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> Distribution of Ham & Spam Messages in the Dataset
+              <strong>​✒️<Click here to see :</strong> Distribution of Acquired Companies by Category
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/Ham_spam_dis.png' style='width: 50%;' />
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis4.png' style='width: 50%; height:300px' />       
                      </p>
 </details>
 
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> WordCloud of Ham Message
+              <strong>​✒️<Click here to see :</strong> Number of Startups founded in different year
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/ham_wordcloud.png' style='width: 70%;' />
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/dis6.png' style='width: 50%; height:300px' />
                      </p>
 </details>
 
 <details>
        <summary>
-              <strong>​✒️<Click here to see :</strong> WordCloud of Spam Message
+              <strong>​✒️<Click here to see :</strong> Classification Report For Testing
        </summary>
                      <p align='center'>
-                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/spam_wordcloud.png' style='width: 70%;' />
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/rep1.png' style='width: 50%; height:300px' />
                      </p>
 </details>
 
-**Classification Report for Testing**
-<p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/Report1.png' style='width: 58%;' />
-</p>
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Binary Classification
+       </summary>
+                     <p align='center'>
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip1.png' style='width: 50%; height:300px' />
+                     </p>
+</details>
 
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Stacking Classifier [Ensemble Method]
+       </summary>
+                     <p align='center'>
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip2.png' style='width: 50%; height:300px' />
+                     </p>
+</details>
 
-**Confusion Matrix for Testing**
-<p align='center'>
-      <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/main/images/testing_cls1.png' style='width: 58%;' />
-</p>
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Stacking Classifier [Ensemble Method]
+       </summary>
+                     <p align='center'>
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip2.png' style='width: 50%; height:300px' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Multiclass Classification
+       </summary>
+                     <p align='center'>
+                                <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip3.png' style='width: 50%; height:300px' />
+                     </p>
+</details>
+
 
 ## <br>**➲ Machine Learning Pipeline**:
 
