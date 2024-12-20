@@ -33,6 +33,63 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 * Remove unnecessary and corrupted data.
 * Data Labelling.
 
+
+  ## <br>**➲ Exploratory Data Analysis (EDA)**
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Target Class for Binary Classification
+       </summary>
+                     <p align='center'>
+                            <img src='website/__pycache__/cls_dis1.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Ham Messages
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/Ham_dirstribution.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Text Length in Spam Messages
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/spam_distribution.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> Distribution of Ham & Spam Messages in the Dataset
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/Ham_spam_dis.png' style='width: 50%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> WordCloud of Ham Message
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/ham_wordcloud.png' style='width: 70%;' />
+                     </p>
+</details>
+
+<details>
+       <summary>
+              <strong>​✒️<Click here to see :</strong> WordCloud of Spam Message
+       </summary>
+                     <p align='center'>
+                            <img src='https://github.com/Shuhaib73/NLP_Message_Spam-Ham_Classification/blob/project_branch/images/spam_wordcloud.png' style='width: 70%;' />
+                     </p>
+</details>
+
+
 ## <br>**➲ Machine Learning Pipeline**:
 
 -- The data preprocessing steps include:
