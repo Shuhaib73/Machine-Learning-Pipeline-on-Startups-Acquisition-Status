@@ -4,6 +4,8 @@
 ## <br>**➲ The Objective** :
 The objective of the project is to predict whether a startup which is currently Operating, IPO, Acquired, or closed.This problem will be solved through a Supervised Machine Learning approach by training a model based on the history of startups which were either acquired or closed.
 
+#### *** Note: To access the Application Kindly visit my portfolio website or you can contact me through LinkedIn/Mail.***
+
 ## <br>**➲ 📂 Dataset**:
 
 ### Link to raw data(Huge JSON and Excel fiel):
@@ -167,3 +169,17 @@ In data cleaning we are will remove the inappropriate & unncessary information f
            * Once the models is trained and evaluated, I deployed the model using Amazon ECS (Elastic Container Service), ensuring scalability and easy access for real-time predictions. This setup allows the model to be accessed via APIs for making predictions in real-time, such as determining the status of new startups.
 
            * To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) has been used. RDS provides scalable, managed storage for user data and startup-related information. It ensures that sensitive information is stored securely and can be easily accessed by the deployed application for real-time predictions.
+
+
+---
+
+
+## 📧 **Contact**
+
+For questions, feedback, or contributions, please contact:  
+**Shuhaib**  
+**Email**: mohamed.shuhaib73@gmail.com
+**LinkedIn**: https://www.linkedin.com/in/mohamedshuhaib/
+
+---
+
