@@ -9,6 +9,7 @@ create table users(id int primary key auto_increment,
                     password varchar(300) not null,
                     details timestamp default now());
 
+
 describe users;
 
 select 
