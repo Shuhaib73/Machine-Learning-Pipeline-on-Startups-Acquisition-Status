@@ -31,7 +31,6 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 * Remove unnecessary and corrupted data.
 * Data Labelling.
 
-
 ## 🛠️ **Technologies Used**
 
 - **Python** 🐍: The core programming language that powers the app.  
@@ -51,7 +50,6 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 - **GitHub Actions**: Implemented for automating the CI/CD pipeline, allowing for seamless building, testing, and deployment of the sentiment analysis model directly from GitHub.
 - **Pandas**: A robust library for dataset management and processing.    
 - **Matplotlib/Seaborn**: Used for creating impactful visualizations that simplify data insights.  
-
 
 
   ## <br>**➲ Exploratory Data Analysis (EDA)**
@@ -118,7 +116,6 @@ In data cleaning we are will remove the inappropriate & unncessary information f
                      </p>
 </details>
 
-
 <details>
        <summary>
               <strong>​✒️<Click here to see :</strong> Machine Learning Pipeline for Stacking Classifier [Ensemble Method]
@@ -136,7 +133,6 @@ In data cleaning we are will remove the inappropriate & unncessary information f
                                 <img src='https://github.com/Shuhaib73/Machine-Learning-Pipeline-on-Startups-Acquisition-Status/blob/prj_branch/website/__pycache__/pip3.png' style='width: 50%; height:300px' />
                      </p>
 </details>
-
 
 ## <br>**➲ Machine Learning Pipeline**:
 
@@ -170,9 +166,7 @@ In data cleaning we are will remove the inappropriate & unncessary information f
 
            * To manage and store company and user credentials securely, Amazon RDS (Relational Database Service) has been used. RDS provides scalable, managed storage for user data and startup-related information. It ensures that sensitive information is stored securely and can be easily accessed by the deployed application for real-time predictions.
 
-
 ---
-
 
 ## 📧 **Contact**
 
@@ -182,4 +176,3 @@ For questions, feedback, or contributions, please contact:
 **LinkedIn**: https://www.linkedin.com/in/mohamedshuhaib/
 
 ---
-
